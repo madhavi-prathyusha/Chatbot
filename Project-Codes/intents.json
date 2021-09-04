@@ -1,0 +1,81 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello"],
+    "responses": ["Hello!", "Good to see you again", "Hi there, how can I help?"]
+  },
+  {"tag": "wishes",
+    "patterns": [ "How are you","Good Day","How do you do?"],
+    "responses": ["Greetings","Fine Day","Good Day"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure","Your Welcome!"]
+  },
+  {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {"tag": "quering",
+    "patterns": ["who are you","what can you do","what is your use","what is your name","what questions can I ask you","How you could help me?"],
+    "responses": ["I am Query Chatbot, I can solve any queries about Pragati Engineering College"]
+
+  },
+  {"tag": "office",
+    "patterns": ["When will be the office open","what are office timing","how can I contact office" ],
+    "responses": ["Office will be opened from 09.00 AM to 12.00AM, you can contact Mr.XXXXX with mobile no: 98776554"]
+  },
+  {"tag": "notifications",
+    "patterns": ["Any new notifications","any new events","any upcoming events","upcoming notifications"],
+    "responses": ["Mid exams will be commenced from 12th june for 3-2 sem, On 21st june there will be conducting essay writing competition on the occasion of yoga day, Exam fee should be paid before 12th june"]
+  },
+  {"tag": "exams",
+    "patterns": ["Upcoming exams","When will be the exams"],
+    "responses": ["Sem exams will be commenced from DD-MM-YYYY for 3-2","Sem exams will be commenced from DD-MM-YYYY for 2-2"]
+  },
+  {"tag": "timetable",
+    "patterns": ["Timetable for 3-2 mid exams","timetable for 3rd year, 2nd sem mid exams"],
+    "responses": ["12th june - Monday - DAA,13th june - Tuesday - DWDM, 14th june - Wednesday - UML, 15th june - Thursday - CN, 16th june - Friday - CS/IOT"]
+  },
+  {"tag": "notdecied",
+    "patterns": ["Timetable for 4-2 mid exams","Timetable for 2-2 mid exams","Timetable for 1-2 mid exams","Timetable for 4-1 mid exams","Timetable for 2-1 mid exams","Timetable for 3-1 mid exams"],
+    "responses": ["Sorry!! there is no information about it"]
+  },
+
+  {"tag": "extracurricular",
+    "patterns": ["what are the upcoming extra curricular activites","how can i participate in extra curricular activities"],
+    "responses": ["Running competition will be held on 26th june, For participation contact Mr YYYY"]
+  },
+  {"tag": "cllgadd",
+    "patterns": ["college address"],
+    "responses": ["1-378, ADB Road, Surampalem Near Kakinada, Surampalem, Andhra Pradesh 533437"]
+  },
+  {"tag": "results",
+    "patterns": ["when will be results","any new notifications for results","how can i check results","whaen will 3-1 results are released"],
+    "responses": ["Results are released for 4-2 Regular sem exams and 3-2 Regular sem exams, check results in website https://www.pragati.ac.in/"]
+  },
+
+  {"tag": "website",
+    "patterns": ["Is there any website for collge","college website"],
+    "responses": ["College website: https://www.pragati.ac.in"]
+  },
+  {"tag": "technical activities",
+    "patterns": ["any upcoming technical activites"],
+    "responses": ["Speech competition will be help on DD-YY-MMMM, For participation you can contact Mr AAAAA"]
+  },
+  {"tag": "library1",
+    "patterns": ["which books are available for c language in library","c books in library"],
+    "responses": ["C Programming(Author1),Programming in c(Author2)"]
+  },
+  {"tag": "library2",
+    "patterns": ["which books are available for python language in library","python books in library"],
+    "responses": ["Python Programming(Author1),Python(Author2)"]
+  },
+  {"tag": "extracurricular",
+    "patterns": ["what are the upcoming extra curricular activites","how can i participate in extra curricular activities"],
+    "responses": ["Running competition will be held on 26th june, For participation contact Mr YYYY"]
+  }
+ ]}
